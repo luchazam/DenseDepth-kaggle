@@ -1,4 +1,4 @@
-from keras.engine.topology import Layer, InputSpec
+from keras.utils.layer_utils import Layer, InputSpec
 import keras.utils.conv_utils as conv_utils
 import tensorflow as tf
 import keras.backend as K
